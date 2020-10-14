@@ -322,12 +322,14 @@ footer .fa{
   color: #3a2c4a;}
   .line2{padding: 0px 25px;}
   @media only screen and (max-width:1550px) {
+	  
 	a.nav-link {
 	  padding-left: 12px!important;
 	  padding-right:12px!important;
 	  
 	}
 	.search-txt{width:12em}
+	a.btn{padding-top: 2px;}
 	.Testimonials{padding-bottom: 720px;}
 
 	
@@ -340,23 +342,36 @@ footer .fa{
 		
 	  }
 	.Testimonials{padding-bottom: 1500px;}
-	.search-txt{width:7.5em}
+	.search-txt{width:7.5em;padding-top: 4px;}
 	.customer{margin-top: 10px;}
 	footer a{padding: 0px} 
 	.heart ,.avatar ,.shopping-cart {margin: 0px 10px 0px ;}
-	a.btn{float: right;}
+	a.btn{float: right;padding-top: 2px;padding-left: 7px;}
 	 
 	.line1{font-size: 20px!important;}
 }
-@media only screen and (max-width:768px){
-	a.nav-link {padding-top: 5px!important;padding-bottom: 5px!important;}
+@media only screen and (max-width:770px){
+	a.nav-link {padding-left: 4px!important;padding-right:4px!important;
+}
+.heart ,.avatar ,.shopping-cart,.line1,.right-arrow,.left-arrow {display: none;}
+	.cat {padding-left: 0; padding-right: 0;}
+	.shop{margin:10px}
+	.customer{margin-top:10px}
+	.Testimonials{padding-bottom: 1760px;}
+	.search-txt{width:16em;font-size: 12px;}
+}
+@media only screen and (max-width:765px){
+	a.nav-link {
+		padding: 10px 0px!important;
+ }
+	
 	.heart ,.avatar ,.shopping-cart,.line1,.right-arrow,.left-arrow {display: none;}
 	.cat {padding-left: 0; padding-right: 0;}
 	.shop{margin:10px}
 	.customer{margin-top:10px}
 	.Testimonials{padding-bottom: 1760px;}
-	.search-box{width:50%;margin-left: 180px;margin-top: 0px;} 
 	.search-txt{width:16em}
+	.search-box{margin: 20px;}
 }
 
 @media only screen and (max-width:600px){
